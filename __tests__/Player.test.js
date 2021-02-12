@@ -3,9 +3,7 @@ jest.mock('../lib/Potion');
 console.log(new Potion());
 
 const Player = require('../lib/Player');
-const { expect, test } = require('@jest/globals');
-const { ensureExpectedIsNonNegativeInteger } = require('jest-matcher-utils');
-const expectExport = require('expect');
+
 
 
 
